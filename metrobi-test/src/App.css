@@ -1,0 +1,41 @@
+body{
+  display: block;
+}
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.track {
+  position: relative;
+  height: 50px;
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+}
+
+.character {
+  position: absolute;
+  bottom: 10px;
+  font-size: 2rem;
+  transition: left 0.5s ease-in-out;
+}
+
+.tortoise {
+  color: green;
+}
+
+.achilles {
+  color: blue;
+}
+
+.info {
+  margin-top: 20px;
+}
+
+.reset-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
