@@ -1,11 +1,7 @@
 1. Duplicate Items in an Array
 Question: Write a JavaScript function that finds the duplicate items in any given array.
 
-Solution: function findDuplicates(arr) { const seen = new Set(); const duplicates = new Set();
 
-arr.forEach(item => { if (seen.has(item)) { duplicates.add(item); } else { seen.add(item); } });
-
-return Array.from(duplicates); }
 
 2. Print Array Items with Increasing Delays
 Question: Write an async JavaScript function that writes every item in any given array with 1, 2, 4, 8, ... seconds apart. Example: for [“a”, “b”, “c”, “d”], “a” is printed in 1 sec, “b” is printed in 2 seconds, “c” is printed in 4 seconds, etc.
